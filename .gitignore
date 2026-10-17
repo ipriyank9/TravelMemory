@@ -128,3 +128,14 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+# AWS private keys and credentials
+*.pem
+*.key
+*.p12
+*.pfx
+.aws/
+credentials
+
+# Local deployment secrets
+.env.*
+!.env.example
